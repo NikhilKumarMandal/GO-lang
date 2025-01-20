@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	//nums := []int{5, 6, 7}
@@ -33,6 +35,6 @@ func main() {
 	// starting byte of rune
 	// 255  => 1 byte , if grater then 255 it will take more than 1 byte
 	for i,c := range "golang"{
-		fmt.Println(i,c)
+		fmt.Println(i,string(c))
 	}
 }
